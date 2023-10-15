@@ -8,7 +8,8 @@ while True:
 		print("2 - p")
 		print("3 - q")
 		print("4 - miejsca zerowe")
-		print("0 - informacje")
+		print("9 - informacje")
+		print("0 - wyjdź")
 		wybor = int(input("#> "))
 		break
 	except ValueError:
@@ -42,7 +43,8 @@ def wyswietl_ramke(tekst):
     print(border)
 
 
-
+if wybor == 0:
+    exit
 
 if wybor == 1:
 	a = float(input("wprowadź a\n#> "))
@@ -94,7 +96,7 @@ if wybor == 4:
 			break
 		except ZeroDivisionError:
 			print("0!=")
-if wybor == 0:
+if wybor == 9:
 	tekst = """Program zrobiony przez Jakuba Bednarczyka"""
 wyswietl_ramke(tekst)
 #komentarz
