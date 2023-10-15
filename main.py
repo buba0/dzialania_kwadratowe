@@ -97,3 +97,4 @@ if wybor == 4:
 if wybor == 0:
 	tekst = """Program zrobiony przez Jakuba Bednarczyka"""
 wyswietl_ramke(tekst)
+#komentarz
