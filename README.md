@@ -1,0 +1,1 @@
+# dzialania_kwadratowe
