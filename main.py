@@ -36,11 +36,20 @@ def wyswietl_ramke(tekst):
     lines = tekst.split('\n')
     max_length = max(len(line) for line in lines)
     border = '#' * (max_length + 4)
-
+    
+    # Wyświetl górną ramkę
     print(border)
+    
+    # Wyświetl zawartość
     for line in lines:
         print(f'# {line.ljust(max_length)} #')
+    
+    # Wyświetl dolną ramkę
     print(border)
+    
+if wybor == 9:
+    tekst = """Jakub Bednarczyk"""
+    print(wyswietl_ramke(tekst))
 
 
 if wybor == 0:
@@ -96,7 +105,3 @@ if wybor == 4:
 			break
 		except ZeroDivisionError:
 			print("0!=")
-if wybor == 9:
-	tekst = """Program zrobiony przez Jakuba Bednarczyka"""
-wyswietl_ramke(tekst)
-#komentarz
