@@ -105,3 +105,6 @@ if wybor == 4:
 			break
 		except ZeroDivisionError:
 			print("0!=")
+
+
+			#dodałem komentarz?
